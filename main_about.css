@@ -1,0 +1,74 @@
+body {
+    color: rgb(0, 0, 0);
+    background-attachment: url(./Highland\ RP\ Official\ Trailer\ 2020\ FiveM\ Roleplay\ Cinematic\ Trailer.mp4)
+}
+
+
+h1 {
+    color: rgb(255, 255, 255);
+   
+    text-align:center;
+}
+
+
+#left_text {
+   max-width:290px;
+   margin-left: 5px;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+}
+
+
+#right_text{
+float: right;
+margin: 5px;
+background-color: rgb(255, 255, 255)
+}
+
+
+.nav-list {
+    
+    box-shadow:0px 0px 10px var(--clr-gray200);
+    display:flex;
+    justify-content: flex-end;
+    align-items:center;
+  }
+  
+  .nav-item{
+    list-style:none;
+    margin-right:20rem;
+  }
+
+
+.fullscreen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.fullscreen-bg__video {
+  position: absolute;
+  top: 0;
+  left: 2231;
+  width: 110%;
+  height: 125%;
+}
+
+.werehere{
+    color: rgb(149, 31, 31);
+}
+
+h2 {
+text-align-last:center;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+
+}
+
+#para {
+    text-align: center;
+}

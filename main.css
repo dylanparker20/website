@@ -1,0 +1,99 @@
+.nav-list {
+    
+  box-shadow:0px 10px 10px var(--clr-gray200);
+  display:inline-table;
+  justify-content: flex-end;
+  align-items: stretch;
+}
+
+.nav-item{
+  list-style:circle;
+  margin-top: initial;
+}
+
+
+
+
+body {
+    color: rgb(255, 255, 255);
+    background-image: url(./rm309-adj-01-x.jpg)
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+
+h1 {
+    border-radius: 1mm;
+    border-color: rgb(255, 255, 255);
+    border-style: groove;
+    text-align:center;
+    
+}
+
+#fivem {
+align-items: flex-start;
+background-color: white;
+color: rgb(0, 0, 0);
+max-width:500px;
+margin-left: 1px;
+
+}
+
+#phasmophobia{
+  align-items: flex-start;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  max-width:500px;
+  margin-left: 1px;
+
+}
+
+#civ {
+  align-items: flex-start;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  max-width:500px;
+  margin-left: 1px;
+
+}
+
+.fullscreen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.fullscreen-bg__video {
+  position: absolute;
+  top: 0;
+  left: 2231;
+  width: 110%;
+  height: 125%;
+}
+
+
+#key {
+  background-color: white;
+ color: black;
+ max-width:290px;
+ margin-left: 5px;
+}
+
+
+.nav-list {
+    
+  box-shadow:0px 0px 10px var(--clr-gray200);
+  display:flex;
+  justify-content: flex-end;
+  align-items:center;
+}
+
+.nav-item{
+  list-style:none;
+  margin-right:20rem;
+}
